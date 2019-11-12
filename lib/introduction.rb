@@ -4,7 +4,6 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 
-name = josh
 
 def introduction(name)
   puts "Hi, my name is #{name}."
@@ -12,7 +11,7 @@ def introduction(name)
 def inroduction_with_language(name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 
-def introduction_with_language_optional(name, language = "Ruby")
+def introduction_with_language_optional(name, language= "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 
 
